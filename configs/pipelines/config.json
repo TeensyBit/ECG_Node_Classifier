@@ -1,0 +1,16 @@
+{
+  "exp_name":"EcgResNet34",
+  "type": "Pipeline1D",
+  "device": "cuda:0",
+  "model": "EcgResNet34",
+  "model_path": "X:/TeensyBit/ECG_Node/ECG_NodeML_T2/ecg-classification-master/ecg-classification-master/experiments/EcgResNet34/checkpoints/00000000.pth",
+  "ecg_data": "X:/TeensyBit/ECG_Node/ECG_NodeML_T2/ecg-classification-master/ecg-classification-master/mit-bih/100",
+
+  "json": "data/val.json",
+  "mapping_json": "data/class-mapper.json",
+  "num_classes": 8,
+
+  "batch_size": 128,
+  "num_workers": 3,
+  "exp_dir" : "experiments/"
+}
